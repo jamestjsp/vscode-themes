@@ -1,0 +1,28 @@
+{
+  "name": "aiux-light-theme",
+  "displayName": "AIUX Light Theme",
+  "description": "AIUX Light color theme, extracted unchanged as a standalone theme.",
+  "version": "1.0.0",
+  "publisher": "jamestjsp",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "AIUX Light",
+        "uiTheme": "vs",
+        "path": "./themes/aiux-light-color-theme.json"
+      }
+    ]
+  }
+}

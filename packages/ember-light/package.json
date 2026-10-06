@@ -1,0 +1,40 @@
+{
+  "name": "ember-light",
+  "displayName": "Ember Light",
+  "description": "Monokai Pro Light palette and styling with an original matching SVG icon set.",
+  "version": "0.2.0",
+  "publisher": "plantcontrol",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "light",
+    "warm",
+    "icons",
+    "monokai-inspired"
+  ],
+  "galleryBanner": {
+    "color": "#faf4f2",
+    "theme": "light"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ember Light",
+        "uiTheme": "vs",
+        "path": "./themes/ember-light-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "ember-light-icons",
+        "label": "Ember Light Icons",
+        "path": "./icon-themes/ember-light-icon-theme.json"
+      }
+    ]
+  }
+}

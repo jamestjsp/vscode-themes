@@ -1,0 +1,50 @@
+{
+  "name": "light-themes",
+  "displayName": "Light Themes",
+  "description": "Ember Light and AIUX Light themes, with matching Ember file icons.",
+  "version": "1.0.0",
+  "publisher": "jamestjsp",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "icons",
+    "ember",
+    "aiux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamestjsp/vscode-themes.git"
+  },
+  "homepage": "https://github.com/jamestjsp/vscode-themes",
+  "bugs": {
+    "url": "https://github.com/jamestjsp/vscode-themes/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ember Light",
+        "uiTheme": "vs",
+        "path": "./packages/ember-light/themes/ember-light-color-theme.json"
+      },
+      {
+        "label": "AIUX Light",
+        "uiTheme": "vs",
+        "path": "./packages/aiux-light/themes/aiux-light-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "ember-light-icons",
+        "label": "Ember Light Icons",
+        "path": "./packages/ember-light/icon-themes/ember-light-icon-theme.json"
+      }
+    ]
+  }
+}
